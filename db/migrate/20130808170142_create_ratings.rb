@@ -1,8 +1,8 @@
 class CreateRatings < ActiveRecord::Migration
   def change
     create_table :ratings do |t|
-      t.reference :users
-      t.reference :skills
+      t.references :user
+      t.references :skill
       t.string :proficiency
     end
   end
