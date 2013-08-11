@@ -10,7 +10,7 @@ to model a many to many relationship.
 
 #### Objectives
 Start with this
-[skeleton](http://s3.amazonaws.com/dbc_socrates/challenges/ar-people-skills.zip),
+[skeleton](),
 then build ActiveRecord Models, Migrations, Validations, and Relations to model the following user stories:
 
 1. A User has many skills and a Skill can be assigned to many users.
