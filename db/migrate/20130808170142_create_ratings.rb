@@ -3,7 +3,7 @@ class CreateRatings < ActiveRecord::Migration
     create_table :ratings do |t|
       t.references :user
       t.references :skill
-      t.string :proficiency
+      t.integer :proficiency, :default => 0
     end
   end
 end
